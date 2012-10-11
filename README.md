@@ -7,8 +7,9 @@ To see how to use the Rubber LaTeX build system with vim see [vim.wikia.com](htt
 # Install
 If you use [Vundle](https://github.com/gmarik/vundle/) to manage vim plugins just add
 
-    Bundle 'smatting/vimrubber'
-
+```vim
+Bundle 'smatting/vimrubber'
+```
 to your ``~/.vimrc`` as explained in the doc of Vundle, restart Vim and run ``:BundleInstall``
 
 To install it manually, copy ``autoload/vimrubber.tex`` into ``~/.vim/autoload/`` and restart Vim.
