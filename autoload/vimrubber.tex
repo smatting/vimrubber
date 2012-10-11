@@ -1,0 +1,7 @@
+function! s:setup()
+    echo("setting error format")
+    let g:tex_flavor = "pdflatex"
+    setlocal errorformat=%f:%l:\ %m,%f:%l-%\\d%\\+:\ %m
+endfunction
+
+autocmd FileType tex call s:setup()
