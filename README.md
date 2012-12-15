@@ -13,6 +13,3 @@ Bundle 'smatting/vimrubber'
 to your ``~/.vimrc`` as explained in the doc of Vundle, restart Vim and run ``:BundleInstall``
 
 To install it manually, copy ``autoload/vimrubber.tex`` into ``~/.vim/autoload/`` and restart Vim.
-
-# Usage
-When building your LaTeX project with, the messages in the quickfix window should look fine now.
